@@ -1,16 +1,15 @@
 <?php
 
-namespace DesignMyNight\Mongodb;
+namespace mvjacobs\Mongodb;
 
 use Illuminate\Support\ServiceProvider;
-use DesignMyNight\Mongodb\Passport\AuthCode;
-use DesignMyNight\Mongodb\Passport\Bridge\RefreshTokenRepository;
-use DesignMyNight\Mongodb\Passport\Client;
-use DesignMyNight\Mongodb\Passport\PersonalAccessClient;
-use DesignMyNight\Mongodb\Passport\RefreshToken;
-use DesignMyNight\Mongodb\Passport\Token;
 use Laravel\Passport\Bridge\RefreshTokenRepository as PassportRefreshTokenRepository;
 use Laravel\Passport\Passport;
+use mvjacobs\Mongodb\Passport\AuthCode;
+use mvjacobs\Mongodb\Passport\Bridge\RefreshTokenRepository;
+use mvjacobs\Mongodb\Passport\Client;
+use mvjacobs\Mongodb\Passport\PersonalAccessClient;
+use mvjacobs\Mongodb\Passport\Token;
 
 class MongodbPassportServiceProvider extends ServiceProvider
 {

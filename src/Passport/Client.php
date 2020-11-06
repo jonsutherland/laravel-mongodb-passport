@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignMyNight\Mongodb\Passport;
+namespace mvjacobs\Mongodb\Passport;
 
 use Jenssegers\Mongodb\Eloquent\Model;
 
@@ -79,7 +79,7 @@ class Client extends Model
     {
         return false;
     }
-    
+
     /**
      * Determine if the client is a confidential client.
      *
@@ -87,6 +87,6 @@ class Client extends Model
      */
     public function confidential()
     {
-        return ! empty($this->secret);
+        return !empty($this->secret);
     }
 }

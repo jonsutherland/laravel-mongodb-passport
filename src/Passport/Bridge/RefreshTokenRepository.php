@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignMyNight\Mongodb\Passport\Bridge;
+namespace mvjacobs\Mongodb\Passport\Bridge;
 
 use Laravel\Passport\Bridge\RefreshTokenRepository as BaseRefreshTokenRepository;
 use Laravel\Passport\Events\RefreshTokenCreated;

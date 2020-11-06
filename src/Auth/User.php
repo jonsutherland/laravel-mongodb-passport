@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignMyNight\Mongodb\Auth;
+namespace mvjacobs\Mongodb\Auth;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Auth\Passwords\CanResetPassword;
@@ -12,9 +12,9 @@ use Jenssegers\Mongodb\Eloquent\Model;
 use Laravel\Passport\HasApiTokens;
 
 class User extends Model implements
-    AuthenticatableContract,
-    AuthorizableContract,
-    CanResetPasswordContract
+AuthenticatableContract,
+AuthorizableContract,
+CanResetPasswordContract
 {
     use Authenticatable, Authorizable, CanResetPassword, HasApiTokens;
 }

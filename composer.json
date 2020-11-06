@@ -1,7 +1,7 @@
 {
-    "name": "designmynight/laravel-mongodb-passport",
+    "name": "mvjacobs/laravel-mongodb-passport",
     "description": "A package to allow laravel/passport use with jenssegers/laravel-mongodb",
-    "homepage": "https://github.com/designmynight/laravel-mongodb-passport",
+    "homepage": "https://github.com/mvjacobs/laravel-mongodb-passport",
     "license": "MIT",
     "keywords": [
         "laravel",
@@ -10,7 +10,7 @@
         "laravel-passport",
         "mongodb",
         "passport",
-        "designmynight"
+        "mvjacobs"
     ],
     "require": {
         "php": ">=7.1",
@@ -20,20 +20,20 @@
     },
     "autoload": {
         "psr-4": {
-            "DesignMyNight\\Mongodb\\": "src"
+            "mvjacobs\\Mongodb\\": "src"
         }
     },
     "authors": [
         {
-            "name": "DesignMyNight",
-            "email": "support@designmynight.com",
+            "name": "mvjacobs",
+            "email": "support@mvjacobs.com",
             "role": "Support"
         }
     ],
     "extra": {
         "laravel": {
             "providers": [
-                "DesignMyNight\\Mongodb\\MongodbPassportServiceProvider"
+                "mvjacobs\\Mongodb\\MongodbPassportServiceProvider"
             ]
         }
     }
